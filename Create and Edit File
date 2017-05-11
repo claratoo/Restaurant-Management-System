@@ -1,0 +1,14 @@
+package restaurant;
+
+import java.io.File;
+import java.io.*;
+import java.io.FileWriter;
+
+public class Restaurant {
+    public static void main(String[] args) throws FileNotFoundException {
+        File bill = new File("17 May 10");
+        PrintStream output = new PrintStream(bill);
+        output.println("food is good\thi");
+    }
+    
+}
